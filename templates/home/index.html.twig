@@ -1,9 +1,12 @@
 {% extends 'base.html.twig' %}
-
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
+{% endblock %}
 {% block title %}Hello test!{% endblock %}
 
 {% block body %}
     {#  Import navbar #}
     {{ parent() }}
-    
+    <img class="header-picture" id="green" src="images/homepage-main-picture.webp" alt="Blured picture of bikes ">
 {% endblock %}
