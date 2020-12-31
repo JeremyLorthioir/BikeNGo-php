@@ -3,7 +3,7 @@
     {{ parent() }}
     <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
 {% endblock %}
-{% block title %}Hello test!{% endblock %}
+{% block title %}{{parent()}} Home{% endblock %}
 
 {% block body %}
     {#  Import navbar #}
