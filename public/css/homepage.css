@@ -1,0 +1,43 @@
+.header-picture {
+  width:100%;
+  height:100vh;
+  position: relative;
+  z-index: -1;
+  border-radius: 0 0 140px 140px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+.picture-overlay {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.picture-overlay h1 {
+  font-family: 'Archivo Black', sans-serif !important;
+  font-size: 62px;
+  margin-bottom: 40px;
+}
+
+.picture-overlay p {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.picture-overlay a {
+  background-color: #E76F51;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50px;
+}
