@@ -22,6 +22,31 @@ class Station
      */
     private $name;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $description;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $title;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $picture_url;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $season_start;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $season_end;
+
     public function getId(): ?int
     {
         return $this->id;

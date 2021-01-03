@@ -37,6 +37,26 @@ class Loueur
      */
     private $city;
 
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $description;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $title;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $open_days;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $open_hours;
+
     public function getId(): ?int
     {
         return $this->id;
