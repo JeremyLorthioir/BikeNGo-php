@@ -10,7 +10,7 @@ use Doctrine\Migrations\AbstractMigration;
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
-final class Version20210103130412_alter_loueur_station extends AbstractMigration
+final class Version20210103130412 extends AbstractMigration
 {
     public function getDescription() : string
     {
