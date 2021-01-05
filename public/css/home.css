@@ -16,12 +16,45 @@ a:hover {
     position: fixed;
     width:100%;
     transition: background-color 1s;
+    z-index: 999;
 }
 body {
     width: 100%;
     background: url(../images/body-background.png);
     background-color: #FAF4F2;
     background-repeat: repeat-y;
+}
+
+footer {
+    background-color: #F8E1DB;
+    border-radius: 200px 200px 0 0;
+    padding: 60px 30px 10px 30px;
+}
+
+footer .row {
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+footer .row h3{
+    font-size: 20px;
+}
+
+footer .row p {
+    font-size: 14px;
+}
+footer .row ul {
+    padding-left: 0;
+}
+
+footer .row ul li{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+footer .credits {
+    text-align: center;
 }
 
 .rect{

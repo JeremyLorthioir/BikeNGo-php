@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}">
+{% endblock %}
+{% block title %}{{parent()}} Home{% endblock %}
+
+{% block body %}
+    {#  Import navbar #}
+    {{ parent() }}
+
+    <div class="example-wrapper">
+        <h1>Hello {{ controller_name }}! ✅</h1>
+
+        This friendly message is coming from:
+        <ul>
+            <li>Your controller at <code><a href="{{ '/Users/jeremylorthioir/Workspace/BikeNGo/src/Controller/LoueurController.php'|file_link(0) }}">src/Controller/LoueurController.php</a></code></li>
+            <li>Your template at <code><a href="{{ '/Users/jeremylorthioir/Workspace/BikeNGo/templates/loueur/index.html.twig'|file_link(0) }}">templates/loueur/index.html.twig</a></code></li>
+        </ul>
+    </div>
+{% endblock %}
