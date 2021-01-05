@@ -41,3 +41,29 @@
   margin: auto;
   border-radius: 50px;
 }
+
+.steps-container {
+  max-width: 80%;
+  margin: auto;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.steps-container .step {
+  max-width: 24%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.steps-container .step h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
